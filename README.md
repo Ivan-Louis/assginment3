@@ -109,6 +109,8 @@ python eval.py data/qrels.txt output/baseline.out
 
 You need to submit the code, output files, and report on GitHub to the repository that is created for your team `uis-dat630-fall2015/{teamname}-assignment-3`.
 
+_Note: the team repos will only be available from Oct 27._
+
 
 ### Online evaluation and Leaderboard
 
