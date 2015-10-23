@@ -27,11 +27,7 @@ class MyHTMLParser(HTMLParser):
         self.current_tag = tag
         if self.current_tag == "docno":
             self.ini = 0
-
-    def handle_data(self, data):
-        #print(self.current_tag)
-        if self.current_tag == "docno" and self.ini == 1:
-            #TODO legg til ny index i dic
+        if self.current_tag == "doc":
             if self.doc_id != 0:
                 print(self.doc_id)
                 self.dict['id'] = self.doc_id
@@ -39,6 +35,12 @@ class MyHTMLParser(HTMLParser):
                 self.docs.append(self.dict)
                 self.vocabulary = []
                 self.dict = {}
+
+    def handle_data(self, data):
+        #print(self.current_tag)
+        if self.current_tag == "docno" and self.ini == 1:
+            #TODO legg til ny index i dic
+
             self.doc_id = data
             #print(self.doc_id)
         #print(tag)
