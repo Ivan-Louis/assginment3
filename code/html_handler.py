@@ -1,10 +1,5 @@
 from __future__ import division
 from html.parser import HTMLParser
-from sklearn.feature_extraction.text import TfidfVectorizer
-from nltk.stem.snowball import SnowballStemmer
-import nltk
-import re
-stemmer = SnowballStemmer("english")
 
 class MyHTMLParser(HTMLParser):
 
@@ -16,7 +11,6 @@ class MyHTMLParser(HTMLParser):
         self.doc_id = 0
         self.dict = {}
         self.ini = 0
-
     def get_vocabulary(self):
         return " ". join(self.vocabulary)
 
@@ -47,6 +41,8 @@ class MyHTMLParser(HTMLParser):
                 self.dict = {}
             self.doc_id = data
             #print(self.doc_id)
+        #print(tag)
+
 
         if self.current_tag != "script" and self.current_tag != "style" and self.current_tag != "dochdr" and self.current_tag != "docno":
             data_words = data.split()
@@ -63,3 +59,4 @@ def handle_html(path):
     parser.feed(html)
     vocabulary = parser.get_docs()
     return vocabulary
+
