@@ -13,7 +13,7 @@ inputDir = "../csiro-corpus"
 outputFile = "../output/baseline.out"
 queriesFile = "../data/queries.xml"
 temp = "testdocs"
-
+"""
 handle = handle_html(temp)
 print(handle[0])
 print(handle[1])
@@ -45,10 +45,15 @@ def createIndex():
 
     writer = ix.writer()
 
-    for doc in input_dir:
-        docs = handle_html(doc)
+    for file in os.listdir(inputDir):
+        #print(file)
+        fileloc = inputDir +"/"+ file
+        docs = handle_html(fileloc)
         for doc in docs:
-            writer.add_document(id=doc['id'].decode(),  content=doc['content'].decode())
+            try:
+                writer.add_document(id=doc['id'].decode(),  content=doc['content'].decode())
+            except:
+                writer.add_document(id=doc['id'],  content=doc['content'])
 
     writer.commit()
     ix.close()
@@ -82,6 +87,6 @@ def makeBaseline(ixDir, outFile):
 
 if __name__ == '__main__':
     createIndex()  # note that this has to be done only once
-    """
+    print("done")
     #makeBaseline(indexDir, outputFile)
 
