@@ -1,0 +1,442 @@
+<DOC>
+<DOCNO>CSIRO000-00000000</DOCNO>
+<DOCHDR>
+http://anic.ento.csiro.au/database/about.asp
+HTTP/1.1 200 OK
+Date: Tue, 20 Mar 2007 05:32:18 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+Content-Length: 3055
+Content-Type: text/html
+Cache-control: private
+Set-Cookie: ASPSESSIONIDQCBSQTSD=LHFIEFJDFJHAEMPBOKPCNHPJ; path=/
+Via: 1.1 anic.ento.csiro.au (Apache/2.2.3)
+Connection: close
+Stored-Length: 3055
+</DOCHDR>
+<html>
+<head>
+<title>About Us</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#FFFFFF" text="#003366" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" link="#006699" vlink="#006699" alink="#006699">
+<table width="100%" border="0" cellpadding="5">
+  <tr bgcolor="#000000">
+    <td height="26">
+      <div align="right"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif"><a href="index.asp"><img src="images/homebut_bl.gif" width="72" height="26" border="0" alt="Home"></a><a href="http://anic.ento.csiro.au/default.htm"><img src="images/ANICbut_bl.gif" width="72" height="26" border="0" alt="ANIC"></a><a href="about.asp"><img src="images/aboutbut_bl.gif" width="72" height="26" border="0" alt="About Us"></a></font></div>
+      <div align="right"></div></td>
+  </tr>
+  <tr>
+    <td height="70" valign="bottom" background="images/background_plain.gif"><div align="right"><font color="#660000" face="Arial, Helvetica, sans-serif" size="5">ANIC Specimen Database</font><br>
+        <font face="Arial, Helvetica, sans-serif" color="#003366" size="3">Australian National Insect Collection, CSIRO Entomology</font></div></td>
+  </tr>
+</table>
+
+<blockquote>
+  <font size="5" face="Arial, Helvetica, sans-serif" color="#003366"><i>About
+    Us</i></font>
+  <p><font color="#003366" face="Arial, Helvetica, sans-serif" size="2">This web
+    site was developed by the Biodiversity Informatics Project for the <a href="http://anic.ento.csiro.au/default.htm">Australian
+    National Insect Collection</a>, <a href="http://www.ento.csiro.au/">CSIRO
+    Entomology</a>.</font></p>
+  <p><font color="#003366" face="Arial, Helvetica, sans-serif" size="4">Staff:</font></p>
+  <p><font color="#003366" face="Arial, Helvetica, sans-serif" size="2">Steve
+    Shattuck<br>
+    Natalie Barnett<br>
+    </font></p>
+  <p><font color="#003366" face="Arial, Helvetica, sans-serif" size="4">Previous
+    staff:</font></p>
+  <p><font color="#003366" face="Arial, Helvetica, sans-serif" size="2">David
+    Baird<br>
+    Neil Fitzsimmons<br>
+    Jackie Hooper<br>
+    </font></p>
+</blockquote>
+<p>
+
+<table width="100%" border="0"> <tr bgcolor="#990000"> <td background="images/background_plain_sm.gif"><font size="2">&nbsp;</font></td></tr>
+</table><p align="center"><font face="Arial, Helvetica, sans-serif" size="2">
+Web site by Steve Shattuck and Natalie Barnet</font>t<br> <a href="http://www.csiro.au"><img src="csiro_sm.gif" width="44" height="53" border="0" align="absmiddle" alt="CSIRO"></a>
+<br> <font color="#000000" face="Arial, Helvetica, sans-serif" size="2">&copy;
+Copyright 2005, CSIRO Australia <br> <a href="mailto:ento-webmaster@csiro.au">webmaster</a><br>
+<!-- #BeginDate format:Sw1 -->5 February, 2007<!-- #EndDate --> <br> Use of this web site and information available from it is subject
+to our <br> <a href="http://www.csiro.au/legalnotices/disclaimer.html">Legal Notice
+and Disclaimer</a> </font></p>
+
+</body>
+</html>
+
+</DOC>
+<DOC>
+<DOCNO>CSIRO000-00003490</DOCNO>
+<DOCHDR>
+http://anic.ento.csiro.au/database/biota_details.aspx?BiotaID=24116
+HTTP/1.1 200 OK
+Date: Tue, 20 Mar 2007 08:40:06 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-AspNet-Version: 2.0.50727
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Length: 6064
+Set-Cookie: ASP.NET_SessionId=tubtmaf2zeeyn3yn0tacbq55; path=/; HttpOnly
+Via: 1.1 anic.ento.csiro.au (Apache/2.2.3)
+Connection: close
+Stored-Length: 6064
+</DOCHDR>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<title>Biota Details</title>
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<meta content="C#" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<LINK href="BioLinkWeb.css" type="text/css" rel="stylesheet">
+	</HEAD>
+	<body bottomMargin="0" leftMargin="0" topMargin="0" rightMargin="0">
+		<form name="Form1" method="post" action="/database/biota_details.aspx?BiotaID=24116" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTE5NzE4NzEzMQ9kFgICAQ9kFgQCAw8WAh4EVGV4dAWaCzxicj48RElWIENMQVNTPSdUZXh0VGF4b25OYW1lSGVhZGluZyc+Q29sbGVtYm9sYTwvRElWPjxicj48RElWIENMQVNTPSdUZXh0SXRlbUxpc3RIZWFkaW5nJz5DbGFzc2lmaWNhdGlvbjwvRElWPjxESVYgQ0xBU1M9J1RleHRJdGVtTGlzdCc+S2luZ2RvbSZuYnNwOzxhIGhyZWY9YmlvdGFfZGV0YWlscy5hc3B4P0Jpb3RhSUQ9MzAyOTU+PGk+QW5pbWFsaWE8L2k+PC9hPiZuYnNwOyAmbmJzcDtQaHlsdW0mbmJzcDs8YSBocmVmPWJpb3RhX2RldGFpbHMuYXNweD9CaW90YUlEPTI5NjIyPjxpPkFydGhyb3BvZGE8L2k+PC9hPiZuYnNwOyAmbmJzcDtDbGFzcyZuYnNwOzxhIGhyZWY9YmlvdGFfZGV0YWlscy5hc3B4P0Jpb3RhSUQ9MjQxMTY+PGk+Q29sbGVtYm9sYTwvaT48L2E+Jm5ic3A7ICZuYnNwOzwvRElWPjxicj48RElWIENMQVNTPSdUZXh0SXRlbUxpc3RIZWFkaW5nJz5WYWxpZCBDaGlsZHJlbjwvRElWPjxESVYgQ0xBU1M9J1RleHRJdGVtTGlzdCc+PGk+PGEgaHJlZj1iaW90YV9kZXRhaWxzLmFzcHg/QmlvdGFJRD00NDE1Nz5Db2xsZW1ib2xhPC9hPjwvaT4mbmJzcDsgJm5ic3A7PC9ESVY+PGJyPjxESVYgQ0xBU1M9J1RleHRJdGVtTGlzdEhlYWRpbmcnPkRpc3RyaWJ1dGlvbjwvRElWPjxhIGhyZWY9c3BlY2ltZW5fbWFwLmFzcHg/QmlvdGFJRD0yNDExNj48aW1nIHNyYz1nZXRtYXAuYXNweD9iaW90YWlkPTI0MTE2Jnc9NjAwJmg9NDAwPjwvYT48RElWIENMQVNTPSdUZXh0SXRlbUJvZHknPiZuYnNwOyAmbmJzcDsgU3BlY2ltZW4gcmVjb3JkcyBmb3IgdGhpcyB0YXhvbiAod2hlbiBwcmVzZW50KSBhcmUgYXZhaWxhYmxlIGFzIGEgPGEgaHJlZj1zcGVjaW1lbl9saXN0LmFzcHg/QmlvdGFJRD0yNDExNj5MaXN0PC9hPiwgYW4gaW50ZXJhY3RpdmUgPGEgaHJlZj1zcGVjaW1lbl9tYXAuYXNweD9CaW90YUlEPTI0MTE2Pk1hcDwvYT4sIHVzaW5nIDxhIGhyZWY9R29vZ2xlRWFydGhEaXNwbGF5LmFzcHg/QmlvdGFJRD0yNDExNj5Hb29nbGUgRWFydGg8L2E+LCBvciBjYW4gYmUgPGEgaHJlZj1zcGVjaW1lbl9saXN0X3NhdmUuYXNwP0Jpb3RhSUQ9MjQxMTY+U2F2ZWQ8L2E+IGFzIC5jc3YuPC9ESVY+PGJyPjxESVYgQ0xBU1M9J1RleHRJdGVtTGlzdEhlYWRpbmcnPk5vbWVuY2xhdHVyZTwvRElWPjxESVYgQ0xBU1M9J1RleHRJdGVtTGlzdCc+PHRhYmxlIHdpZHRoPSc5OCUnIGJvcmRlcj0nMSc+PHRyPjx0ZCB3aWR0aD0nMTglJz5BdXRob3I8L3RkPjx0ZCB3aWR0aD0nODIlJz4mbmJzcDs8L3RkPjwvdHI+PHRyPjx0ZCB3aWR0aD0nMTglJz5ZZWFyIG9mIFB1YmxpY2F0aW9uPC90ZD48dGQgd2lkdGg9JzgyJSc+Jm5ic3A7PC90ZD48L3RyPjx0ZCB3aWR0aD0nMTglJz5SYW5rPC90ZD48dGQgd2lkdGg9JzgyJSc+Q2xhc3MmbmJzcDs8L3RkPjwvdHI+PC90YWJsZT48L0RJVj48YnI+PC9URD48L1RSPjwvVEFCTEU+PGJyPmQCBQ9kFgICAQ8WAh8ABRpXZWRuZXNkYXksIEF1Z3VzdCAzMCwgMjAwNmRklPclGeBgFU7/SArR02WljYtjG0Y=" />
+
+			<P>
+<table width="100%" border="0" cellpadding="5">
+  <tr bgcolor="#000000">
+    <td height="26">
+      <div align="right"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif"><a href="index.asp"><img src="images/homebut_bl.gif" width="72" height="26" border="0" alt="Home"></a><a href="http://anic.ento.csiro.au/default.htm"><img src="images/ANICbut_bl.gif" width="72" height="26" border="0" alt="ANIC"></a><a href="about.asp"><img src="images/aboutbut_bl.gif" width="72" height="26" border="0" alt="About Us"></a></font></div>
+      <div align="right"></div></td>
+  </tr>
+  <tr>
+    <td height="70" valign="bottom" background="images/background_plain.gif"><div align="right"><font color="#660000" face="Arial, Helvetica, sans-serif" size="5">ANIC Specimen Database</font><br>
+        <font face="Arial, Helvetica, sans-serif" color="#003366" size="3">Australian National Insect Collection, CSIRO Entomology</font></div></td>
+  </tr>
+</table>
+				<blockquote><br><DIV CLASS='TextTaxonNameHeading'>Collembola</DIV><br><DIV CLASS='TextItemListHeading'>Classification</DIV><DIV CLASS='TextItemList'>Kingdom&nbsp;<a href=biota_details.aspx?BiotaID=30295><i>Animalia</i></a>&nbsp; &nbsp;Phylum&nbsp;<a href=biota_details.aspx?BiotaID=29622><i>Arthropoda</i></a>&nbsp; &nbsp;Class&nbsp;<a href=biota_details.aspx?BiotaID=24116><i>Collembola</i></a>&nbsp; &nbsp;</DIV><br><DIV CLASS='TextItemListHeading'>Valid Children</DIV><DIV CLASS='TextItemList'><i><a href=biota_details.aspx?BiotaID=44157>Collembola</a></i>&nbsp; &nbsp;</DIV><br><DIV CLASS='TextItemListHeading'>Distribution</DIV><a href=specimen_map.aspx?BiotaID=24116><img src=getmap.aspx?biotaid=24116&w=600&h=400></a><DIV CLASS='TextItemBody'>&nbsp; &nbsp; Specimen records for this taxon (when present) are available as a <a href=specimen_list.aspx?BiotaID=24116>List</a>, an interactive <a href=specimen_map.aspx?BiotaID=24116>Map</a>, using <a href=GoogleEarthDisplay.aspx?BiotaID=24116>Google Earth</a>, or can be <a href=specimen_list_save.asp?BiotaID=24116>Saved</a> as .csv.</DIV><br><DIV CLASS='TextItemListHeading'>Nomenclature</DIV><DIV CLASS='TextItemList'><table width='98%' border='1'><tr><td width='18%'>Author</td><td width='82%'>&nbsp;</td></tr><tr><td width='18%'>Year of Publication</td><td width='82%'>&nbsp;</td></tr><td width='18%'>Rank</td><td width='82%'>Class&nbsp;</td></tr></table></DIV><br></TD></TR></TABLE><br></blockquote>
+
+<table width="100%" border="0">
+  <tr bgcolor="#990000">
+    <td background="images/background_plain_sm.gif"><font size="2">&nbsp;</font></td>
+  </tr>
+</table>
+<p align="center"><font face="Arial, Helvetica, sans-serif" size="2"> Web site
+  by Steve Shattuck and Natalie Barnet</font>t<br>
+  <a href="http://www.csiro.au"><img src="csiro_sm.gif" width="44" height="53" border="0" align="absmiddle" alt="CSIRO"></a>
+  <br>
+  <font color="#000000" face="Arial, Helvetica, sans-serif" size="2">&copy; Copyright
+  2005, CSIRO Australia <br>
+  <a href="mailto:ento-webmaster@csiro.au">webmaster</a><br>
+  Wednesday, August 30, 2006
+  <br>
+  Use of this web site and information available from it is subject to our <br>
+  <a href="http://www.csiro.au/legalnotices/disclaimer.html">Legal Notice and
+  Disclaimer</a> </font></p></P>
+		</form>
+	</body>
+</HTML>
+
+</DOC>
+<DOC>
+<DOCNO>CSIRO000-00010063</DOCNO>
+<DOCHDR>.css
+HTTP/1.1 200 OK
+Date: Tue, 20 Mar 2007 20:02:30 GMT
+Server: Microsoft-IIS/6.0
+Content-Length: 5453
+Content-Type: text/css
+Last-Modified: Sun, 17 Sep 2006 03:07:18 GMT
+Accept-Ranges: bytes
+ETag: "4ea998626dac61:f04"
+X-Powered-By: ASP.NET
+Via: 1.1 anic.ento.csiro.au (Apache/2.2.3)
+Connection: close
+</DOCHDR>
+/*
+  -----------------------------------------------------------------------------------------
+	File:				default.css
+	Notes:			CSS 2.0 compliant.
+	------------------------------------------------------------------------------------------
+*/
+body
+{
+	background-color: white;
+	color: #000000;
+	font: normal normal normal 66.67%/normal Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	padding: 0px;
+}
+
+div { background: transparent;  margin: 0px; }
+
+h1, h2, h3, h4, h5, h6
+{
+	color: #202671;
+	margin: 9px 0px 6px 0px;
+	font-weight: bold;
+}
+
+h1
+{
+	font-size: 180%;
+	color: black;
+	font-family: Arial, Helvetica, Tahoma, Verdana, sans-serif;
+}
+h2 { font-size: 145%; font-family: 'Arial Narrow', Tahoma, Verdana, Arial, Helvetica, sans-serif;}
+h3 { font-size: 130%; font-family: 'Arial Narrow', Tahoma, Verdana, Arial,Helvetica, sans-serif;}
+h4 { font-size: 115%; font-family: Arial, 'Arial Narrow', Tahoma, Verdana, Helvetica, sans-serif;}
+h5 { font-size: 110%; font-weight: normal; font-family: Arial, 'Arial Narrow', Tahoma, Verdana, Helvetica, sans-serif;}
+h6 { font-size: 110%; font-weight: normal; font-family: 'Arial Narrow', Tahoma, Arial, Verdana, Helvetica, sans-serif;}
+
+.ApplicationHeader { font-size: 180%; font-family: 'Arial Narrow', Tahoma, Verdana, Arial, Helvetica, sans-serif; text-align:center; background-color: #003366; color: #ffffff; font-weight: bold; }
+.MapToolbar { background-color: Silver; }
+.MapClass { border-top: 0px; border-left: 1px solid silver; border-right: 1px solid silver; border-bottom: 1px solid silver; }
+.FrameTitle { font-size: 120%; font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; vertical-align: middle; background-color: #003366; filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr=#003366,endColorStr=#EBF1F6); color: #ffffff; }
+.FrameTitleText { vertical-align: middle; color: White; }
+.SearchPanelTitleText { font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #ffffff; }
+.SearchResultsHeader { background-color: #202671; border-bottom: 1px solid silver; filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr=#0c4c14,endColorStr=#e2fce5); }
+.SearchResultsHeaderText { font-size: 120%; font-weight:bold; font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #ffffff; vertical-align:middle; }
+.FrameBorder { border-top: 1px solid silver; border-left: 1px solid silver; border-right: 1px solid silver; border-bottom: 1px solid silver; }
+.InputControlCell { vertical-align: middle; text-align: right; }
+.ReportHeaderRow { background-color: Silver; font-weight:bold; color: black; }
+.ReportRow { background-color: #ffffff; }
+.ReportRowAlternate { background-color: #eeeeee; }
+.DataProviderCell { vertical-align: middle; }
+.DataProviderIcon { vertical-align: middle; border-right: 1px solid silver; }
+.ReportOption { vertical-align: middle; }
+.DataProviderCellAlternate { vertical-align: middle; background-color: #ffffff; }
+.SearchButton { vertical-align: bottom; text-align: right; }
+.WarningCell { background-color: #f7f5cd; }
+.LoginControlsCell { vertical-align: middle; }
+.FooterCell { font-size:xx-small; text-align: left; }
+.ScreenError { width: 800px; background-color: #f7f5cd; }
+.ExporterLink {}
+.LayerDetail { text-align: left; vertical-align:middle; }
+.LayerSectionHeader { text-align:left; background-color: Silver; color: Black; border-top: 1px solid Gray; }
+.LayerActionLink { font-size:70%; }
+
+a:link, a:visited, a:active	{ text-decoration: none; color: #0560A6 }
+a:hover { text-decoration: underline; }
+
+select, input, textarea
+{
+	font: normal normal normal 100%/normal Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	margin: 1px;
+}
+
+input.checkbox { height: 11px; width: 11px; margin: 2px; }
+input.option-button { height: 12px; width: 12px; margin: 2px; }
+
+input.button, button.button, submit.button
+{
+	cursor: default;
+	margin-right: 0px;
+	color: #00ff00;
+	text-align: right;
+	padding: 2px 5px 2px 0px;
+	font: normal normal normal 100%  Tahoma, Arial, Verdana, 'Arial Narrow';
+	height: 23px;
+}
+
+input.tiny, button.tiny { width: 25px; font-size: xx-small; padding-right: 0px;}
+input.small, button.small { width: 50px; }
+input.medium, button.medium { width: 75px; }
+input.large, button.large { width: 100px; }
+input.vlarge, button.vlarge { width: 150px; }
+
+input.disabled, button.disabled { color: silver; cursor: not-allowed;}
+
+.TextItemBody
+{
+	font-size: 10pt;
+	font-family: Arial, Sans-Serif;
+}
+.TextItemList
+{
+	font-size: 12pt;
+	font-family: Arial, Sans-Serif;
+}
+.TextItemListHeading
+{
+	font-weight: bold;
+	font-size: 12pt;
+	font-family: Arial, Sans-Serif;
+}
+.TextItemListMainHeading
+{
+	font-weight: bold;
+	font-size: 18pt;
+	font-family: Arial, Sans-Serif;
+}
+.TextTaxonName
+{
+	font-size: 12pt;
+	font-family: Arial, Sans-Serif;
+}
+.TextTaxonNameSmall
+{
+	font-size: 10pt;
+	font-family: Arial, Sans-Serif;
+}
+.TextTaxonNameItalics
+{
+	font-size: 12pt;
+	font-style: italic;
+	font-family: Arial, Sans-Serif;
+}
+.TextTaxonNameBoldItalics
+{
+	font-weight: bold;
+	font-size: 12pt;
+	font-style: italic;
+	font-family: Arial, Sans-Serif;
+}
+.TextTaxonNameHeading
+{
+	font-weight: bold;
+	font-size: 18pt;
+	font-family: Arial, Sans-Serif;
+}
+.TextTaxonNameHeadingItalics
+{
+	font-weight: bold;
+	font-size: 18pt;
+	font-style: italic;
+	font-family: Arial, Sans-Serif;
+}
+
+</DOC>
+<DOC>
+<DOCNO>CSIRO000-00015940</DOCNO>
+<DOCHDR>
+http://anic.ento.csiro.au/database/biota_details.aspx?BiotaID=24117
+HTTP/1.1 200 OK
+Date: Tue, 20 Mar 2007 07:30:35 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-AspNet-Version: 2.0.50727
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Length: 7444
+Set-Cookie: ASP.NET_SessionId=r2rx002imerfth551t2qpr55; path=/; HttpOnly
+Via: 1.1 anic.ento.csiro.au (Apache/2.2.3)
+Connection: close
+Stored-Length: 7444
+</DOCHDR>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<title>Biota Details</title>
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<meta content="C#" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<LINK href="BioLinkWeb.css" type="text/css" rel="stylesheet">
+	</HEAD>
+	<body bottomMargin="0" leftMargin="0" topMargin="0" rightMargin="0">
+		<form name="Form1" method="post" action="/database/biota_details.aspx?BiotaID=24117" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTE5NzE4NzEzMQ9kFgICAQ9kFgQCAw8WAh4EVGV4dAXqDzxicj48RElWIENMQVNTPSdUZXh0VGF4b25OYW1lSGVhZGluZyc+UG9kdXJvaWRlYTwvRElWPjxicj48RElWIENMQVNTPSdUZXh0SXRlbUxpc3RIZWFkaW5nJz5DbGFzc2lmaWNhdGlvbjwvRElWPjxESVYgQ0xBU1M9J1RleHRJdGVtTGlzdCc+S2luZ2RvbSZuYnNwOzxhIGhyZWY9YmlvdGFfZGV0YWlscy5hc3B4P0Jpb3RhSUQ9MzAyOTU+PGk+QW5pbWFsaWE8L2k+PC9hPiZuYnNwOyAmbmJzcDtQaHlsdW0mbmJzcDs8YSBocmVmPWJpb3RhX2RldGFpbHMuYXNweD9CaW90YUlEPTI5NjIyPjxpPkFydGhyb3BvZGE8L2k+PC9hPiZuYnNwOyAmbmJzcDtDbGFzcyZuYnNwOzxhIGhyZWY9YmlvdGFfZGV0YWlscy5hc3B4P0Jpb3RhSUQ9MjQxMTY+PGk+Q29sbGVtYm9sYTwvaT48L2E+Jm5ic3A7ICZuYnNwO09yZGVyJm5ic3A7PGEgaHJlZj1iaW90YV9kZXRhaWxzLmFzcHg/QmlvdGFJRD00NDE1Nz48aT5Db2xsZW1ib2xhPC9pPjwvYT4mbmJzcDsgJm5ic3A7U3Vib3JkZXImbmJzcDs8YSBocmVmPWJpb3RhX2RldGFpbHMuYXNweD9CaW90YUlEPTQ0MTU4PjxpPkFydGhyb3BsZW9uYTwvaT48L2E+Jm5ic3A7ICZuYnNwO1N1cGVyZmFtaWx5Jm5ic3A7PGEgaHJlZj1iaW90YV9kZXRhaWxzLmFzcHg/QmlvdGFJRD0yNDExNz48aT5Qb2R1cm9pZGVhPC9pPjwvYT4mbmJzcDsgJm5ic3A7PC9ESVY+PGJyPjxESVYgQ0xBU1M9J1RleHRJdGVtTGlzdEhlYWRpbmcnPlZhbGlkIENoaWxkcmVuPC9ESVY+PERJViBDTEFTUz0nVGV4dEl0ZW1MaXN0Jz48aT48YSBocmVmPWJpb3RhX2RldGFpbHMuYXNweD9CaW90YUlEPTI0MTE4PkJyYWNoeXN0b21lbGxpZGFlPC9hPjwvaT4mbmJzcDsgJm5ic3A7PGk+PGEgaHJlZj1iaW90YV9kZXRhaWxzLmFzcHg/QmlvdGFJRD0yNDEyMj5IeXBvZ2FzdHJ1cmlkYWU8L2E+PC9pPiZuYnNwOyAmbmJzcDs8aT48YSBocmVmPWJpb3RhX2RldGFpbHMuYXNweD9CaW90YUlEPTQ0MTYxPk5lYW51cmlkYWU8L2E+PC9pPiZuYnNwOyAmbmJzcDs8aT48YSBocmVmPWJpb3RhX2RldGFpbHMuYXNweD9CaW90YUlEPTQ0MTYyPk9kb250ZWxsaWRhZTwvYT48L2k+Jm5ic3A7ICZuYnNwOzxpPjxhIGhyZWY9YmlvdGFfZGV0YWlscy5hc3B4P0Jpb3RhSUQ9NDQxNjM+T255Y2hpdXJpZGFlPC9hPjwvaT4mbmJzcDsgJm5ic3A7PC9ESVY+PGJyPjxESVYgQ0xBU1M9J1RleHRJdGVtTGlzdEhlYWRpbmcnPkRpc3RyaWJ1dGlvbjwvRElWPjxhIGhyZWY9c3BlY2ltZW5fbWFwLmFzcHg/QmlvdGFJRD0yNDExNz48aW1nIHNyYz1nZXRtYXAuYXNweD9iaW90YWlkPTI0MTE3Jnc9NjAwJmg9NDAwPjwvYT48RElWIENMQVNTPSdUZXh0SXRlbUJvZHknPiZuYnNwOyAmbmJzcDsgU3BlY2ltZW4gcmVjb3JkcyBmb3IgdGhpcyB0YXhvbiAod2hlbiBwcmVzZW50KSBhcmUgYXZhaWxhYmxlIGFzIGEgPGEgaHJlZj1zcGVjaW1lbl9saXN0LmFzcHg/QmlvdGFJRD0yNDExNz5MaXN0PC9hPiwgYW4gaW50ZXJhY3RpdmUgPGEgaHJlZj1zcGVjaW1lbl9tYXAuYXNweD9CaW90YUlEPTI0MTE3Pk1hcDwvYT4sIHVzaW5nIDxhIGhyZWY9R29vZ2xlRWFydGhEaXNwbGF5LmFzcHg/QmlvdGFJRD0yNDExNz5Hb29nbGUgRWFydGg8L2E+LCBvciBjYW4gYmUgPGEgaHJlZj1zcGVjaW1lbl9saXN0X3NhdmUuYXNwP0Jpb3RhSUQ9MjQxMTc+U2F2ZWQ8L2E+IGFzIC5jc3YuPC9ESVY+PGJyPjxESVYgQ0xBU1M9J1RleHRJdGVtTGlzdEhlYWRpbmcnPk5vbWVuY2xhdHVyZTwvRElWPjxESVYgQ0xBU1M9J1RleHRJdGVtTGlzdCc+PHRhYmxlIHdpZHRoPSc5OCUnIGJvcmRlcj0nMSc+PHRyPjx0ZCB3aWR0aD0nMTglJz5BdXRob3I8L3RkPjx0ZCB3aWR0aD0nODIlJz4mbmJzcDs8L3RkPjwvdHI+PHRyPjx0ZCB3aWR0aD0nMTglJz5ZZWFyIG9mIFB1YmxpY2F0aW9uPC90ZD48dGQgd2lkdGg9JzgyJSc+MCZuYnNwOzwvdGQ+PC90cj48dGQgd2lkdGg9JzE4JSc+UmFuazwvdGQ+PHRkIHdpZHRoPSc4MiUnPlN1cGVyZmFtaWx5Jm5ic3A7PC90ZD48L3RyPjwvdGFibGU+PC9ESVY+PGJyPjwvVEQ+PC9UUj48L1RBQkxFPjxicj5kAgUPZBYCAgEPFgIfAAUaV2VkbmVzZGF5LCBBdWd1c3QgMzAsIDIwMDZkZOEH/K/rFyehW6xyPpkFbbN5yEXY" />
+
+			<P>
+<table width="100%" border="0" cellpadding="5">
+  <tr bgcolor="#000000">
+    <td height="26">
+      <div align="right"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif"><a href="index.asp"><img src="images/homebut_bl.gif" width="72" height="26" border="0" alt="Home"></a><a href="http://anic.ento.csiro.au/default.htm"><img src="images/ANICbut_bl.gif" width="72" height="26" border="0" alt="ANIC"></a><a href="about.asp"><img src="images/aboutbut_bl.gif" width="72" height="26" border="0" alt="About Us"></a></font></div>
+      <div align="right"></div></td>
+  </tr>
+  <tr>
+    <td height="70" valign="bottom" background="images/background_plain.gif"><div align="right"><font color="#660000" face="Arial, Helvetica, sans-serif" size="5">ANIC Specimen Database</font><br>
+        <font face="Arial, Helvetica, sans-serif" color="#003366" size="3">Australian National Insect Collection, CSIRO Entomology</font></div></td>
+  </tr>
+</table>
+				<blockquote><br><DIV CLASS='TextTaxonNameHeading'>Poduroidea</DIV><br><DIV CLASS='TextItemListHeading'>Classification</DIV><DIV CLASS='TextItemList'>Kingdom&nbsp;<a href=biota_details.aspx?BiotaID=30295><i>Animalia</i></a>&nbsp; &nbsp;Phylum&nbsp;<a href=biota_details.aspx?BiotaID=29622><i>Arthropoda</i></a>&nbsp; &nbsp;Class&nbsp;<a href=biota_details.aspx?BiotaID=24116><i>Collembola</i></a>&nbsp; &nbsp;Order&nbsp;<a href=biota_details.aspx?BiotaID=44157><i>Collembola</i></a>&nbsp; &nbsp;Suborder&nbsp;<a href=biota_details.aspx?BiotaID=44158><i>Arthropleona</i></a>&nbsp; &nbsp;Superfamily&nbsp;<a href=biota_details.aspx?BiotaID=24117><i>Poduroidea</i></a>&nbsp; &nbsp;</DIV><br><DIV CLASS='TextItemListHeading'>Valid Children</DIV><DIV CLASS='TextItemList'><i><a href=biota_details.aspx?BiotaID=24118>Brachystomellidae</a></i>&nbsp; &nbsp;<i><a href=biota_details.aspx?BiotaID=24122>Hypogastruridae</a></i>&nbsp; &nbsp;<i><a href=biota_details.aspx?BiotaID=44161>Neanuridae</a></i>&nbsp; &nbsp;<i><a href=biota_details.aspx?BiotaID=44162>Odontellidae</a></i>&nbsp; &nbsp;<i><a href=biota_details.aspx?BiotaID=44163>Onychiuridae</a></i>&nbsp; &nbsp;</DIV><br><DIV CLASS='TextItemListHeading'>Distribution</DIV><a href=specimen_map.aspx?BiotaID=24117><img src=getmap.aspx?biotaid=24117&w=600&h=400></a><DIV CLASS='TextItemBody'>&nbsp; &nbsp; Specimen records for this taxon (when present) are available as a <a href=specimen_list.aspx?BiotaID=24117>List</a>, an interactive <a href=specimen_map.aspx?BiotaID=24117>Map</a>, using <a href=GoogleEarthDisplay.aspx?BiotaID=24117>Google Earth</a>, or can be <a href=specimen_list_save.asp?BiotaID=24117>Saved</a> as .csv.</DIV><br><DIV CLASS='TextItemListHeading'>Nomenclature</DIV><DIV CLASS='TextItemList'><table width='98%' border='1'><tr><td width='18%'>Author</td><td width='82%'>&nbsp;</td></tr><tr><td width='18%'>Year of Publication</td><td width='82%'>0&nbsp;</td></tr><td width='18%'>Rank</td><td width='82%'>Superfamily&nbsp;</td></tr></table></DIV><br></TD></TR></TABLE><br></blockquote>
+
+<table width="100%" border="0">
+  <tr bgcolor="#990000">
+    <td background="images/background_plain_sm.gif"><font size="2">&nbsp;</font></td>
+  </tr>
+</table>
+<p align="center"><font face="Arial, Helvetica, sans-serif" size="2"> Web site
+  by Steve Shattuck and Natalie Barnet</font>t<br>
+  <a href="http://www.csiro.au"><img src="csiro_sm.gif" width="44" height="53" border="0" align="absmiddle" alt="CSIRO"></a>
+  <br>
+  <font color="#000000" face="Arial, Helvetica, sans-serif" size="2">&copy; Copyright
+  2005, CSIRO Australia <br>
+  <a href="mailto:ento-webmaster@csiro.au">webmaster</a><br>
+  Wednesday, August 30, 2006
+  <br>
+  Use of this web site and information available from it is subject to our <br>
+  <a href="http://www.csiro.au/legalnotices/disclaimer.html">Legal Notice and
+  Disclaimer</a> </font></p></P>
+		</form>
+	</body>
+</HTML>
+
+</DOC>
+<DOC>
+<DOCNO>CSIRO000-00023893</DOCNO>
+<DOCHDR>
+http://anic.ento.csiro.au/database/biota_details.aspx?BiotaID=24118
+HTTP/1.1 200 OK
+Date: Tue, 20 Mar 2007 07:30:33 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-AspNet-Version: 2.0.50727
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Length: 6940
+Set-Cookie: ASP.NET_SessionId=d5piqxnhwhxqztjht5srckyb; path=/; HttpOnly
+Via: 1.1 anic.ento.csiro.au (Apache/2.2.3)
+Connection: close
+Stored-Length: 6940
+</DOCHDR>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<title>Biota Details</title>
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<meta content="C#" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<LINK href="BioLinkWeb.css" type="text/css" rel="stylesheet">
+	</HEAD>
+	<body bottomMargin="0" leftMargin="0" topMargin="0" rightMargin="0">
+		<form name="Form1" method="post" action="/database/biota_details.aspx?BiotaID=24118" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTE5NzE4NzEzMQ9kFgICAQ9kFgQCAw8WAh4EVGV4dAWSDjxicj48RElWIENMQVNTPSdUZXh0VGF4b25OYW1lSGVhZGluZyc+QnJhY2h5c3RvbWVsbGlkYWU8L0RJVj48YnI+PERJViBDTEFTUz0nVGV4dEl0ZW1MaXN0SGVhZGluZyc+Q2xhc3NpZmljYXRpb248L0RJVj48RElWIENMQVNTPSdUZXh0SXRlbUxpc3QnPktpbmdkb20mbmJzcDs8YSBocmVmPWJpb3RhX2RldGFpbHMuYXNweD9CaW90YUlEPTMwMjk1PjxpPkFuaW1hbGlhPC9pPjwvYT4mbmJzcDsgJm5ic3A7UGh5bHVtJm5ic3A7PGEgaHJlZj1iaW90YV9kZXRhaWxzLmFzcHg/QmlvdGFJRD0yOTYyMj48aT5BcnRocm9wb2RhPC9pPjwvYT4mbmJzcDsgJm5ic3A7Q2xhc3MmbmJzcDs8YSBocmVmPWJpb3RhX2RldGFpbHMuYXNweD9CaW90YUlEPTI0MTE2PjxpPkNvbGxlbWJvbGE8L2k+PC9hPiZuYnNwOyAmbmJzcDtPcmRlciZuYnNwOzxhIGhyZWY9YmlvdGFfZGV0YWlscy5hc3B4P0Jpb3RhSUQ9NDQxNTc+PGk+Q29sbGVtYm9sYTwvaT48L2E+Jm5ic3A7ICZuYnNwO1N1Ym9yZGVyJm5ic3A7PGEgaHJlZj1iaW90YV9kZXRhaWxzLmFzcHg/QmlvdGFJRD00NDE1OD48aT5BcnRocm9wbGVvbmE8L2k+PC9hPiZuYnNwOyAmbmJzcDtTdXBlcmZhbWlseSZuYnNwOzxhIGhyZWY9YmlvdGFfZGV0YWlscy5hc3B4P0Jpb3RhSUQ9MjQxMTc+PGk+UG9kdXJvaWRlYTwvaT48L2E+Jm5ic3A7ICZuYnNwO0ZhbWlseSZuYnNwOzxhIGhyZWY9YmlvdGFfZGV0YWlscy5hc3B4P0Jpb3RhSUQ9MjQxMTg+PGk+QnJhY2h5c3RvbWVsbGlkYWU8L2k+PC9hPiZuYnNwOyAmbmJzcDs8L0RJVj48YnI+PERJViBDTEFTUz0nVGV4dEl0ZW1MaXN0SGVhZGluZyc+VmFsaWQgQ2hpbGRyZW48L0RJVj48RElWIENMQVNTPSdUZXh0SXRlbUxpc3QnPjxpPjxhIGhyZWY9YmlvdGFfZGV0YWlscy5hc3B4P0Jpb3RhSUQ9MjQxMTk+QnJhY2h5c3RvbWVsbGE8L2E+PC9pPiZuYnNwOyAmbmJzcDs8L0RJVj48YnI+PERJViBDTEFTUz0nVGV4dEl0ZW1MaXN0SGVhZGluZyc+RGlzdHJpYnV0aW9uPC9ESVY+PGEgaHJlZj1zcGVjaW1lbl9tYXAuYXNweD9CaW90YUlEPTI0MTE4PjxpbWcgc3JjPWdldG1hcC5hc3B4P2Jpb3RhaWQ9MjQxMTgmdz02MDAmaD00MDA+PC9hPjxESVYgQ0xBU1M9J1RleHRJdGVtQm9keSc+Jm5ic3A7ICZuYnNwOyBTcGVjaW1lbiByZWNvcmRzIGZvciB0aGlzIHRheG9uICh3aGVuIHByZXNlbnQpIGFyZSBhdmFpbGFibGUgYXMgYSA8YSBocmVmPXNwZWNpbWVuX2xpc3QuYXNweD9CaW90YUlEPTI0MTE4Pkxpc3Q8L2E+LCBhbiBpbnRlcmFjdGl2ZSA8YSBocmVmPXNwZWNpbWVuX21hcC5hc3B4P0Jpb3RhSUQ9MjQxMTg+TWFwPC9hPiwgdXNpbmcgPGEgaHJlZj1Hb29nbGVFYXJ0aERpc3BsYXkuYXNweD9CaW90YUlEPTI0MTE4Pkdvb2dsZSBFYXJ0aDwvYT4sIG9yIGNhbiBiZSA8YSBocmVmPXNwZWNpbWVuX2xpc3Rfc2F2ZS5hc3A/QmlvdGFJRD0yNDExOD5TYXZlZDwvYT4gYXMgLmNzdi48L0RJVj48YnI+PERJViBDTEFTUz0nVGV4dEl0ZW1MaXN0SGVhZGluZyc+Tm9tZW5jbGF0dXJlPC9ESVY+PERJViBDTEFTUz0nVGV4dEl0ZW1MaXN0Jz48dGFibGUgd2lkdGg9Jzk4JScgYm9yZGVyPScxJz48dHI+PHRkIHdpZHRoPScxOCUnPkF1dGhvcjwvdGQ+PHRkIHdpZHRoPSc4MiUnPiZuYnNwOzwvdGQ+PC90cj48dHI+PHRkIHdpZHRoPScxOCUnPlllYXIgb2YgUHVibGljYXRpb248L3RkPjx0ZCB3aWR0aD0nODIlJz4wJm5ic3A7PC90ZD48L3RyPjx0ZCB3aWR0aD0nMTglJz5SYW5rPC90ZD48dGQgd2lkdGg9JzgyJSc+RmFtaWx5Jm5ic3A7PC90ZD48L3RyPjwvdGFibGU+PC9ESVY+PGJyPjwvVEQ+PC9UUj48L1RBQkxFPjxicj5kAgUPZBYCAgEPFgIfAAUaV2VkbmVzZGF5LCBBdWd1c3QgMzAsIDIwMDZkZI3l9pDJ2f4LIrHsXN0Ntkc2E8Xk" />
+
+			<P>
+<table width="100%" border="0" cellpadding="5">
+  <tr bgcolor="#000000">
+    <td height="26">
+      <div align="right"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif"><a href="index.asp"><img src="images/homebut_bl.gif" width="72" height="26" border="0" alt="Home"></a><a href="http://anic.ento.csiro.au/default.htm"><img src="images/ANICbut_bl.gif" width="72" height="26" border="0" alt="ANIC"></a><a href="about.asp"><img src="images/aboutbut_bl.gif" width="72" height="26" border="0" alt="About Us"></a></font></div>
+      <div align="right"></div></td>
+  </tr>
+  <tr>
+    <td height="70" valign="bottom" background="images/background_plain.gif"><div align="right"><font color="#660000" face="Arial, Helvetica, sans-serif" size="5">ANIC Specimen Database</font><br>
+        <font face="Arial, Helvetica, sans-serif" color="#003366" size="3">Australian National Insect Collection, CSIRO Entomology</font></div></td>
+  </tr>
+</table>
+				<blockquote><br><DIV CLASS='TextTaxonNameHeading'>Brachystomellidae</DIV><br><DIV CLASS='TextItemListHeading'>Classification</DIV><DIV CLASS='TextItemList'>Kingdom&nbsp;<a href=biota_details.aspx?BiotaID=30295><i>Animalia</i></a>&nbsp; &nbsp;Phylum&nbsp;<a href=biota_details.aspx?BiotaID=29622><i>Arthropoda</i></a>&nbsp; &nbsp;Class&nbsp;<a href=biota_details.aspx?BiotaID=24116><i>Collembola</i></a>&nbsp; &nbsp;Order&nbsp;<a href=biota_details.aspx?BiotaID=44157><i>Collembola</i></a>&nbsp; &nbsp;Suborder&nbsp;<a href=biota_details.aspx?BiotaID=44158><i>Arthropleona</i></a>&nbsp; &nbsp;Superfamily&nbsp;<a href=biota_details.aspx?BiotaID=24117><i>Poduroidea</i></a>&nbsp; &nbsp;Family&nbsp;<a href=biota_details.aspx?BiotaID=24118><i>Brachystomellidae</i></a>&nbsp; &nbsp;</DIV><br><DIV CLASS='TextItemListHeading'>Valid Children</DIV><DIV CLASS='TextItemList'><i><a href=biota_details.aspx?BiotaID=24119>Brachystomella</a></i>&nbsp; &nbsp;</DIV><br><DIV CLASS='TextItemListHeading'>Distribution</DIV><a href=specimen_map.aspx?BiotaID=24118><img src=getmap.aspx?biotaid=24118&w=600&h=400></a><DIV CLASS='TextItemBody'>&nbsp; &nbsp; Specimen records for this taxon (when present) are available as a <a href=specimen_list.aspx?BiotaID=24118>List</a>, an interactive <a href=specimen_map.aspx?BiotaID=24118>Map</a>, using <a href=GoogleEarthDisplay.aspx?BiotaID=24118>Google Earth</a>, or can be <a href=specimen_list_save.asp?BiotaID=24118>Saved</a> as .csv.</DIV><br><DIV CLASS='TextItemListHeading'>Nomenclature</DIV><DIV CLASS='TextItemList'><table width='98%' border='1'><tr><td width='18%'>Author</td><td width='82%'>&nbsp;</td></tr><tr><td width='18%'>Year of Publication</td><td width='82%'>0&nbsp;</td></tr><td width='18%'>Rank</td><td width='82%'>Family&nbsp;</td></tr></table></DIV><br></TD></TR></TABLE><br></blockquote>
+
+<table width="100%" border="0">
+  <tr bgcolor="#990000">
+    <td background="images/background_plain_sm.gif"><font size="2">&nbsp;</font></td>
+  </tr>
+</table>
+<p align="center"><font face="Arial, Helvetica, sans-serif" size="2"> Web site
+  by Steve Shattuck and Natalie Barnet</font>t<br>
+  <a href="http://www.csiro.au"><img src="csiro_sm.gif" width="44" height="53" border="0" align="absmiddle" alt="CSIRO"></a>
+  <br>
+  <font color="#000000" face="Arial, Helvetica, sans-serif" size="2">&copy; Copyright
+  2005, CSIRO Australia <br>
+  <a href="mailto:ento-webmaster@csiro.au">webmaster</a><br>
+  Wednesday, August 30, 2006
+  <br>
+  Use of this web site and information available from it is subject to our <br>
+  <a href="http://www.csiro.au/legalnotices/disclaimer.html">Legal Notice and
+  Disclaimer</a> </font></p></P>
+		</form>
+	</body>
+</HTML>
+
+</DOC>
+
