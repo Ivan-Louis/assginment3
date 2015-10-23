@@ -1,6 +1,5 @@
 __author__ = 'Louis'
 
-<<<<<<< HEAD
 import os
 from html_handler import handle_html
 from vsmRetrieve import retrieveVsm
@@ -85,12 +84,4 @@ if __name__ == '__main__':
     createIndex()  # note that this has to be done only once
     """
     #makeBaseline(indexDir, outputFile)
-=======
-from html_handler import handle_html
 
-input_dir = "../csiro-corpus/CSIRO000"
-
-handle = handle_html(input_dir)
-
-print(handle)
->>>>>>> 53eb5cd1abe8a7d89b5f3436583f2c30cd90e86f
