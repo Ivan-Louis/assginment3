@@ -54,11 +54,13 @@ class MyHTMLParser(HTMLParser):
 
 
 def handle_html(path):
+    file = open(path, encoding="UTF-8")
     try:
-        file = open(path, encoding="UTF-8")
+        html = file.read()
     except:
         file = open(path, encoding="Latin-1")
-    html = file.read()
+        html = file.read()
+
     #print(html)
     parser = MyHTMLParser()
     parser.feed(html)
