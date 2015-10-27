@@ -171,9 +171,7 @@ def main(argv):
 
 if __name__ == '__main__':
     arg = []
-    gt = load_gt(gt_file)
-    res = load_res(res_file)
-    arg.append(gt)
-    arg.append(res)
+    arg.append(gt_file)
+    arg.append(res_file)
     main(arg)
     #main(sys.argv[1:])
