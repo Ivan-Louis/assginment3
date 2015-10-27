@@ -16,8 +16,8 @@ from __future__ import division
 import sys
 import math
 
-gt_file = "../data/cacm.rel"  # ground truth file with relevance judgments
-res_file = "../data/cacm.out"  # retrieval results file, i.e., output of batch retrieval
+gt_file = "../data/qrels.txt"  # ground truth file with relevance judgments
+res_file = "../output/baseline.out"  # retrieval results file, i.e., output of batch retrieval
 metrics = ["P5", "P10", "AP", "RR", "NDCG@10"]
 max_res = 50  # maximum number of results per query
 
@@ -54,7 +54,7 @@ def load_res(run_file):
         if len(res[query_id]) < max_res:
             res[query_id].append(doc_id)
         else:
-            print "WARNING: returning more than the allowed number of results for query", query_id
+            print("WARNING: returning more than the allowed number of results for query", query_id)
 
     return res
 
@@ -145,20 +145,20 @@ def evaluate(gt_file, res_file):
 
     # Print the results
     line = "-" * (10 + 9 * len(metrics))
-    print "{:<10}".format("query_id"), ("{:>8}" * len(metrics)).format(*metrics)
-    print line
+    print("{:<10}".format("query_id"), ("{:>8}" * len(metrics)).format(*metrics))
+    print (line)
     # Per-query results
     for query_id in sorted(eval):
         scores = [str(eval[query_id][metric])[:5] for metric in metrics]
-        print "{:<10}".format(query_id), ("{:>8}" * len(metrics)).format(*scores)
+        print ("{:<10}".format(query_id), ("{:>8}" * len(metrics)).format(*scores))
     # Average results
-    print line
+    print (line)
     scores = [str(eval_avg[metric])[:5] for metric in metrics]
-    print "{:<10}".format("Average"), ("{:>8}" * len(metrics)).format(*scores)
+    print( "{:<10}".format("Average"), ("{:>8}" * len(metrics)).format(*scores))
 
 
 def print_usage():
-    print "Usage: python eval.py qrels_file result_file"
+    print ("Usage: python eval.py qrels_file result_file")
     sys.exit()
 
 
@@ -170,4 +170,10 @@ def main(argv):
 
 
 if __name__ == '__main__':
-    main(sys.argv[1:])
+    arg = []
+    gt = load_gt(gt_file)
+    res = load_res(res_file)
+    arg.append(gt)
+    arg.append(res)
+    main(arg)
+    #main(sys.argv[1:])
