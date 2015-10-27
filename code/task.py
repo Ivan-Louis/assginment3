@@ -6,6 +6,7 @@ from vsmRetrieve import retrieveVsm
 from whoosh.fields import Schema, TEXT, ID
 import whoosh.index as index
 from xml.dom import minidom
+from bs4 import BeautifulSoup
 
 #files and directories
 indexDir = "../data/index"
@@ -13,6 +14,9 @@ inputDir = "../csiro-corpus"
 outputFile = "../output/baseline.out"
 queriesFile = "../data/queries.xml"
 temp = "testdocs"
+
+#for tag in soup.find_all(True):
+#    print(tag)
 """
 handle = handle_html(temp)
 print(handle[0])
@@ -24,13 +28,14 @@ print(handle[4])
 #print(handle)
 """
 # Method for loading an xml file of queries
+
 def loadQueries():
     queries = []
     xmldoc = minidom.parse(queriesFile)
     for query in xmldoc.getElementsByTagName("query"):
-        queryId = query.getElementsByTagName("number")[0].firstChild.nodeValue
-        text = query.getElementsByTagName("text")[0].firstChild.nodeValue
-        queries.append({'id': queryId, 'text': text})
+        id = query.getAttribute('id')
+        text = query.firstChild.nodeValue
+        queries.append({'id': id, 'text': text})
 
     return queries
 
@@ -76,7 +81,7 @@ def makeBaseline(ixDir, outFile):
         res = retrieveVsm(reader, query['text'])
 
         # Output max 10 results
-        for docnum in sorted(res, key=res.get, reverse=True)[:10]:
+        for docnum in sorted(res, key=res.get, reverse=True)[:50]:
             # Look up our docID
             stored = reader.stored_fields(docnum)
             # Write `docID Q0 queryID score` into `data/cacm.out`
@@ -86,7 +91,7 @@ def makeBaseline(ixDir, outFile):
     ix.close()
 
 if __name__ == '__main__':
-    createIndex()  # note that this has to be done only once
-    print("done")
-    #makeBaseline(indexDir, outputFile)
+    #createIndex()  # note that this has to be done only once
 
+    makeBaseline(indexDir, outputFile)
+    print("done")
