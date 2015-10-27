@@ -18,12 +18,12 @@ def retrieveVsm(reader, query):
     hits = {}
     docNorm = {}
     qNorm = 0
-    for t, cnt in qt.iteritems():
+    for t, cnt in qt.items():
 
         if reader.frequency(defaultField, t) == 0:
             continue
 
-        wtq = tfidf(reader, t, cnt, len(qterms))
+        wtq = tfidf(reader, t, cnt, len(query.split()))
         qNorm += wtq * wtq
         pr = reader.postings(defaultField, t)
         while pr.is_active():
@@ -38,7 +38,7 @@ def retrieveVsm(reader, query):
             docNorm[docNum] += wtd * wtd
             pr.next()
 
-    for docNum in hits.iteritems():
-        hits[docNum] = hits[docNum] / math.sqrt(qNorm * docNorm[docNum])
+    for docNum, score in hits.items():
+        hits[(docNum)] = hits[docNum] / math.sqrt(qNorm * docNorm[docNum])
 
     return hits
