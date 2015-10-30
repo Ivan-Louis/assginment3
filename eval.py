@@ -16,8 +16,9 @@ from __future__ import division
 import sys
 import math
 
-gt_file = "../data/qrels.txt"  # ground truth file with relevance judgments
-res_file = "../output/baseline.out"  # retrieval results file, i.e., output of batch retrieval
+gt_file = "data/qrels.txt"  # ground truth file with relevance judgments
+#res_file = "output/baseline.out"
+res_file = "output/improved.out"  # retrieval results file, i.e., output of batch retrieval
 metrics = ["P5", "P10", "AP", "RR", "NDCG@10"]
 max_res = 50  # maximum number of results per query
 

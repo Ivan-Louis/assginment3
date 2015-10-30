@@ -12,7 +12,7 @@ def tfidf(reader, term, count, length):
 
 def retrieveVsm(reader, query):
     # Preprocess the query in a naive way
-    qterms = query.split()
+    qterms = query.lower().split()
     qt = Counter(qterms)
 
     hits = {}
@@ -21,6 +21,7 @@ def retrieveVsm(reader, query):
     for t, cnt in qt.items():
 
         if reader.frequency(defaultField, t) == 0:
+            print("Skipping term: " , t)
             continue
 
         wtq = tfidf(reader, t, cnt, len(query.split()))

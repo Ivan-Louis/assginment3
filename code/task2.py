@@ -3,9 +3,9 @@ __author__ = 'Louis'
 import os
 from html_handler import handle_html
 from vsmRetrieve import retrieveVsm
-import whoosh.scoring as scoring
+from whoosh.scoring import TF_IDF
+
 from whoosh.fields import Schema, TEXT, ID
-from whoosh import qparser
 import whoosh.index as index
 from xml.dom import minidom
 from bs4 import BeautifulSoup
@@ -13,8 +13,7 @@ from bs4 import BeautifulSoup
 #files and directories
 indexDir = "../data/index"
 inputDir = "../csiro-corpus"
-outputBase = "../output/baseline.out"
-outputImpro = "../output/improved.out"
+outputFile = "../output/baseline.out"
 queriesFile = "../data/queries.xml"
 temp = "testdocs"
 
@@ -63,39 +62,37 @@ def makeBaseline(ixDir, outFile):
     queries = loadQueries()
 
     outfile = open(outFile, "w")
-    field = "content"
+
     for query in queries:
         print("Processing query number", query['id'])
-        with ix.searcher(weighting=scoring.TF_IDF()) as searcher:
-            qp = qparser.QueryParser(field, schema=ix.schema)
-            q = qp.parse(query['text'])
 
-            results = searcher.search(q, limit=50)
-            for r in results[:50]:
-                outfile.write(query['id']+ " Q0 " + r['id'] + " " + str(r.score)[0:6] + "\n")
+        # Retrieve documents using the vector space model
+        res = retrieveVsm(reader, query['text'])
+
+        # Output max 10 results
+        for docnum in sorted(res, key=res.get, reverse=True)[:50]:
+            # Look up our docID
+            if(res[docnum] >= 0.6):
+                stored = reader.stored_fields(docnum)
+                # Write `docID Q0 queryID score` into `data/cacm.out`
+                outfile.write(query['id']+ " Q0 " + stored['id'] + " " + str(res[docnum]) + "\n")
 
     outfile.close()
-    ix.close()
+    #ix.close()
 
-def makeImpro(ixDir, outFile):
+def makeImprovement(IxDir, outfile):
     ix = index.open_dir(ixDir)
 
     # Use the reader to get statistics
     reader = ix.reader()
-    #searcher = Searcher(reader, weighting=TF_IDF, closereader=True)
+
     queries = loadQueries()
 
     outfile = open(outFile, "w")
-    field = "content"
+
     for query in queries:
         print("Processing query number", query['id'])
-        with ix.searcher(weighting=scoring.BM25F()) as searcher:
-            qp = qparser.QueryParser(field, schema=ix.schema)
-            q = qp.parse(query['text'])
 
-            results = searcher.search(q, limit=50)
-            for r in results[:50]:
-                outfile.write(query['id']+ " Q0 " + r['id'] + " " + str(r.score)[0:6] + "\n")
 
     outfile.close()
     ix.close()
@@ -104,6 +101,5 @@ def makeImpro(ixDir, outFile):
 if __name__ == '__main__':
     #createIndex()  # note that this has to be done only once
 
-    #makeBaseline(indexDir, outputBase)
-    makeImpro(indexDir, outputImpro)
+    makeBaseline(indexDir, outputFile)
     print("done")

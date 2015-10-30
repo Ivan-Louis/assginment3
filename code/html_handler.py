@@ -29,7 +29,7 @@ class MyHTMLParser(HTMLParser):
             self.ini = 0
         if self.current_tag == "doc":
             if self.doc_id != 0:
-                print(self.doc_id)
+                #print(self.doc_id)
                 self.dict['id'] = self.doc_id
                 self.dict['content'] = self.get_vocabulary()
                 self.docs.append(self.dict)
@@ -61,7 +61,7 @@ def handle_html(path):
         file = open(path, encoding="Latin-1")
         html = file.read()
 
-    #print(html)
+    print(path)
     parser = MyHTMLParser()
     parser.feed(html)
     vocabulary = parser.get_docs()
